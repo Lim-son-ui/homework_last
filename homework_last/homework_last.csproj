@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1DFA7D5-7AAD-4EE5-BCEF-B7A8C3686B76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>homework_last</RootNamespace>
+    <AssemblyName>homework_last</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="work16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work16.designer.cs">
+      <DependentUpon>work16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work0.designer.cs">
+      <DependentUpon>work0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work1.designer.cs">
+      <DependentUpon>work1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work9.designer.cs">
+      <DependentUpon>work9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="utility.cs" />
+    <Compile Include="work2_out.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work2_out.designer.cs">
+      <DependentUpon>work2_out.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work2.designer.cs">
+      <DependentUpon>work2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work15out.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work15out.designer.cs">
+      <DependentUpon>work15out.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work15.designer.cs">
+      <DependentUpon>work15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work8.designer.cs">
+      <DependentUpon>work8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work5.designer.cs">
+      <DependentUpon>work5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="work6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work6.designer.cs">
+      <DependentUpon>work6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parama.cs" />
+    <Compile Include="work4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work4.designer.cs">
+      <DependentUpon>work4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stati.cs" />
+    <Compile Include="work3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work3.Designer.cs">
+      <DependentUpon>work3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="work16.resx">
+      <DependentUpon>work16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work0.resx">
+      <DependentUpon>work0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work1.resx">
+      <DependentUpon>work1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work9.resx">
+      <DependentUpon>work9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work2_out.resx">
+      <DependentUpon>work2_out.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work2.resx">
+      <DependentUpon>work2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work15out.resx">
+      <DependentUpon>work15out.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work15.resx">
+      <DependentUpon>work15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work8.resx">
+      <DependentUpon>work8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work5.resx">
+      <DependentUpon>work5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work6.resx">
+      <DependentUpon>work6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work4.resx">
+      <DependentUpon>work4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="work3.resx">
+      <DependentUpon>work3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
